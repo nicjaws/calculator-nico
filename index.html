@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> JavaScript Calculator</h1>
+    <div id='calculator'>
+        <form>
+            <input type='text' id='display'>
+            <br>
+            <input type='button' value='C' id='keys' onclick='addtoScreen("c")'>
+            <input type='button' value='CE' id='keys' onclick='backspace()'>
+            <input type='button' value='x^2' id='keys' onclick='power()'>
+            <input type='button' value='+' id='keys' onclick='addtoScreen("+")'>
+            <br>
+            <input type='button' value='9' id='keys' onclick='addtoScreen("9")'>
+            <input type='button' value='8' id='keys' onclick='addtoScreen("8")'>
+            <input type='button' value='7' id='keys' onclick='addtoScreen("7")'>
+            <input type='button' value='-' id='keys' onclick='addtoScreen("-")'>
+            <br>
+            <input type='button' value='6' id='keys' onclick='addtoScreen("6")'>
+            <input type='button' value='5' id='keys' onclick='addtoScreen("5")'>
+            <input type='button' value='4' id='keys' onclick='addtoScreen("4")'>
+            <input type='button' value='*' id='keys' onclick='addtoScreen("*")'>
+
+            <br>
+            <input type='button' value='3' id='keys' onclick='addtoScreen("3")'>
+            <input type='button' value='2' id='keys' onclick='addtoScreen("2")'>
+            <input type='button' value='1' id='keys' onclick='addtoScreen("1")'>
+            <input type='button' value='/' id='keys' onclick='addtoScreen("/")'>
+
+            <br>
+            <input type='button' value='0' id='keys' onclick='addtoScreen("0")'>
+            <input type='button' value='.' id='keys' onclick='addtoScreen(".")'>
+            <input type='button' value='=' id='equal' onclick='answer()'>
+        </form>
+        <h3> Nicolas' JavaScript Calculator </h3>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
